@@ -3,7 +3,7 @@
 ### Run Docker command
 
 ```shell
-$ docker run --name mariadb -v `pwd`/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=toor -p 3306:3306 -d mariadb:10.3.17-bionic
+$ docker run --name mariadb -v `pwd`/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=toor -p 3306:3306 -d mariadb:latest
 ```
 
 ### Run MariaDB commands
